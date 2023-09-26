@@ -1,0 +1,69 @@
+2021-09-22 14:49:53 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client',
+)
+Stack Trace:
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:1060
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:191
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:1060
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:191
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\bin\cake.php:12
+
+Caused by: [PDOException] PDO::__construct(): The server requested authentication method unknown to the client [sha256_password] in C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:1060
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:191
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\Session_A2021\book_babelio_v0_0_2\bin\cake.php:12
+
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		  <meta charset="utf-8"/>
+		  <title>Conclusion</title>
+		   
+		  <link rel= "stylesheet" type="text/css" href="styles/base.css"/>
+		  <link rel= "stylesheet" type="text/css" href="styles/modele08.css" id="switch"/>
+          <link rel= "stylesheet" type="text/css" href="styles/styleTP6.css"/>		  
+		  <script src="jquery.js"></script>
+		  <script src="jQueryTP6.js"> </script>t>
+	</head>
+
+	<body>
+		<section>	
+			<div id="centre">
+				<div id="centre-bis">	
+
+					<nav>
+						<ul id="menu">
+							<li><a href="Index.html">Index</a></li>
+							<li><a href="League of legends.html">League of legends</a></li>
+							<li><a href="Onmyoji Arena.html">Onmyoji Arena</a></li>
+							<li><a href="Battlerite.html">Battlerite</a></li>	
+							<li><a href="Conclusion.html">Conclusion</a></li>
+							
+							<li id="gabarit">Gabarit 11</li>
+						</ul>
+					</nav>
+					
+					<div id="secondaire">
+					
+						<h2>Contenu secondaire</h2>
+						
+						<p>Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus,aliquam faucibus, convallis id,congue eu, quam. Mauris ullamcorper felis vitae erat.</p>
+						<p>Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue.</p>
+						
+					</div>
+
+					<div id="principal">
+					
+						<div class="flexbox">
+							
+							<div>
+							Les trois sites, son les sites officiels de jeux vidéos de catégorie MOBA.
+							Ils ont tous aucune annonces ou éléments publicitaires.
+							</div>
+							
+							<div>
+							Le site pour league of legends offre plus d'options de language et présente plus de vidéos et d'animation.
+							L'entreprise Riot Games à aussi publié plus de jeux que les autre compagnie.
+							</div>
+							
+							<div>
+							J'ai pu aussi observer que le site de league of legends étais plus complexe et remplie suivie du site
+							de Battlerite et pour conclure le sitede Onmyoji Arena, étais le moins complexe.
+							</div>
+							
+						</div>
+						
+					</div>	
+				</div>	
+			</div>
+			
+			<footer id="copyright">
+			© 2008 / Gabarits HTML et CSS proposés par Elephorm et Alsacréations
+			</footer>
+					
+		</section>
+		
+		<script>
+		
+			var element = document.getElementById('switch');
+			var gabarit =  document.getElementById('gabarit');
+			gabarit.onclick = function()
+			      {			       				    
+					if(gabarit.innerHTML == "Gabarit 8")
+					{
+						element.setAttribute('href', "styles/modele08.css")
+						gabarit.innerHTML = "Gabarit 11";
+						
+					}
+					else
+					{
+						element.setAttribute('href', "styles/modele11.css")
+						gabarit.innerHTML = "Gabarit 8";	
+						
+
+					}
+		          };					
+				
+		</script>
+		
+	</body>
+
+</html>

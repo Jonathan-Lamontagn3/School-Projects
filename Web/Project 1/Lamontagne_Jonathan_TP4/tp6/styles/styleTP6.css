@@ -1,0 +1,68 @@
+body { 
+	background: #eee ;
+	color: #333333;
+	font: 14px/24px Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+h1 { 
+margin-top:75px;
+font-size: 42px; 
+text-align: center;
+}
+
+/* =Shadow Nav
+-------------------------------------------------------------------------- */
+	/* formatage général de la liste*/
+	#menu 
+	{
+		margin: 0 auto 50px auto;
+		padding: 50px 0 0 127px; /* rembourage  au-dessus, à droite, en bas et à gauche */
+		width: 1000px; /* largeur de la liste --> doit¸être juste assez large
+		  pour l'image des 4 icônes, plus large et les icônes vont se répéter
+		  plus étroit et les icônes vont s'afficher sur plusieurs lignes */
+		min-height: 130px;
+		text-align: center;
+		list-style: none; /* liste sans points */
+	}
+		
+	#menu li { /* formatage de chaque ligne de la liste */
+		margin-right: 15px;
+		width: 160px; /* boutons 2x */
+		height: 72px;
+		position: relative;
+		float: left;
+		}
+		
+	/*  formatage de chaque lien et découpage en block des boutons
+    	et formattage quand la souris survol un bouton */
+	#menu a, #menu a:hover{
+		margin: 0 auto;
+		
+		width: 122px; /* 2 x 59px + bordures */
+		height: 59px;
+		
+		padding-top: 15px;
+		text-indent: 0px; 
+		
+		overflow: hidden;
+		
+		background-image: url(../images/icons.jpg);
+		background-repeat: no-repeat;
+		
+		background-size: 664px 65px; /*2 x 332px*/
+		display: block;
+		position: relative;
+		z-index: 2; /* affiche au-dessus de z-index: 1 */
+		}
+		
+		/* Button Shadow */
+	#menu li img.shadow { /* formatage de chaque ligne de la 
+		liste et de l'ombre */
+		margin: 0 auto;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		}

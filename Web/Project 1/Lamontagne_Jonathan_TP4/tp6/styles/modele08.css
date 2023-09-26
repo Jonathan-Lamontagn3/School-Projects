@@ -1,0 +1,369 @@
+/* ==============================================
+   FEUILLE DE STYLES DES GABARITS HTML/CSS --- 08
+   © Elephorm & Alsacreations.com
+   Conditions d'utilisation:
+   http://creativecommons.org/licenses/by/2.0/fr/
+   ============================================== */
+
+
+/* --- COULEURS --- */
+
+/* Note: vous pouvez modifier simplement l'aspect de ce gabarit en modifiant
+   uniquement les couleurs de fond (propriétés background) et les couleurs
+   du texte (propriété color).
+   Pour modifier la disposition des blocs, voir plus bas dans la feuille de
+   styles la partie «positionnement». */
+
+/* Général */
+body {
+	color: #000000;
+	background: #3465;
+}
+a {
+	color: #554434;
+}
+a:hover, a:focus {
+	color: #FF4C00;
+}
+strong {
+	color: #A1B55D;
+}
+
+/* Navigation */
+nav {
+	color: #ffffff;
+	background: #540133;
+}
+nav a {
+	color: #FF6533;
+}
+nav a:hover, nav a:focus {
+	/*background: #000000;*/
+}
+
+/* Bloc central */
+#centre {
+	background: url(img/08-colonnes.png) repeat-y; /* Voir -> Note 1 */
+}
+
+/* Contenu principal */
+#principal {
+	color: #181A12;
+	background: #ff2f00; /* -> 2 */
+}
+#principal a {
+	color: #332510;
+}
+#principal a:hover, #principal a:focus {
+	color: #6E5122;
+}
+#principal strong {
+	color: #181A12;
+}
+
+/* Contenu secondaire */
+#secondaire {
+	color: #ffffff;
+	background: #540133; /* -> 2 */
+}
+
+
+
+/* --- POSITIONNEMENT --- */
+
+/* Page */
+body {
+	padding: 20px 5px;
+}
+section {
+	width: 900px;
+	margin: 0 auto; /* -> 3 */
+}
+
+/* En-tête */
+#entete {
+	padding: 20px;
+}
+#entete h1 {
+	margin: 0;
+}
+#entete h1 img {
+	float: left;
+	margin: 7px 20px 10px 0;
+}
+#entete .sous-titre {
+	margin: 4px 0 15px 0;
+}
+
+/* Menu de navigation */
+nav {
+	padding: 12px 15px;
+	width: 1000px;
+}
+nav ul {
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav li{
+	float: left;
+	margin-right: 10px;
+	font-size: 1.4em;
+	font-style: italic;
+}
+
+nav li.droite {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+	padding: 3px 0;
+}
+nav a {
+	padding: 6px;
+	line-height: 1.5;
+	font-size: .9em;
+	text-decoration: none;
+}
+
+
+/* Bloc central */
+#centre {
+	width: 100%; /* -> 4 */
+	overflow: hidden; /* -> 4 */
+}
+
+/* Contenu principal */
+#principal {
+	/*margin-left: 200px;*/
+	margin-right: 260px;
+	padding: 10px 20px;
+
+}
+/* modification de la marge */
+#principal > :first-child {
+	margin-top: 25px;
+}
+#principal > :last-child {
+	margin-bottom: 25px;
+}
+
+#principal p, #principal li {
+	line-height: 1.5;
+}
+
+/* Contenu secondaire */
+#secondaire {
+	float: right;
+	width: 200px;
+	padding: 12px 20px;
+}
+
+/* Mention de copyright */
+#copyright {
+	margin: 20px 0;
+	font-size: .85em;
+	text-align: left;
+}
+
+.resize {
+	display: block;
+	height: 50%;
+	width: 50%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+/* Rajout pour les tableaux */
+
+table{
+	border-collapse: collapse;
+	margin-top: 50px;
+	margin-bottom: 100 px;
+	margin-left:auto;
+	margin-right:auto;
+	height:90%;
+	width:90%;
+}
+				
+tr,td,th{
+	border: 2px solid black;
+	text-align: center;
+	vertical-align: middle;
+	padding: 4px 4px 4px 4px;
+}
+
+caption{
+	border: 1px solid black;
+}
+
+
+/* Rajout du flexbox et des nouvelle classe ou id*/
+
+.flexbox {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: white;
+	margin:5%;
+}
+
+.flexbox > div {
+	background-color: teal;
+	width: 100%;
+	margin: 4%;
+	padding: 2%;
+	text-align: center;
+	line-height: 25px;
+	font-size: 18px;
+	justify-content: center;
+	align-items: center;
+}
+
+.special{
+	background-color: white;
+	color:#00c0d4;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.enfaze{
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+
+img.centrer{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+p.centrer{
+	display: block;
+	text-align: center;
+}
+
+#cache1{
+	position: absolute;
+	background:rgba(0,0,0,0);
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:-1;
+	transition: background 10s;
+}
+
+#cache1:target{
+	background:rgba(0,0,0, .75);
+	z-index: 1;
+}
+
+.popup{
+	position:absolute;
+	z-index: 1000;
+	display:none;
+	top:30px;
+	left:300px;
+}
+
+.popup a {
+	position:absolute;
+	background: #333;
+	color:#fff;
+	border-radius: 50%;
+	width:20px;
+	text-align: center;
+	font-family:arial;
+	right:0;
+	text-decoration: none;
+}
+
+#cache1:target ~ .popup{
+	display:block;
+}
+
+
+#cache2{
+	position: absolute;
+	background:rgba(0,0,0,0);
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:-1;
+	transition: background 10s;
+}
+
+#cache2:target{
+	background:rgba(0,0,0, .75);
+	z-index: 1;
+}	
+
+#cache2:target ~ .popup{
+	display:block;
+}
+
+#menu * ul{
+	display: none;
+} 
+
+nav > ul * li:hover #menu * ul{
+	display: block;
+	
+}
+
+nav * li * a:hover * ul{
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+	padding: 3px 0;
+}
+
+#menu > li{
+	display: block;
+	position:relative;
+	left: -100px;
+}
+
+#right{
+	text-align: right;
+	margin: 30px;
+	text-decoration: underline;
+	color:white;
+}
+
+nav #modele{
+	padding: 6px;
+	line-height: 1.5;
+	font-size: .9em;
+	text-decoration: none;
+}
+
+footer{
+	color: #000000;
+}
+
+.miniature
+{
+	padding: 5px;
+	height: 125px;
+	width: 125px;
+	}
+			   
+#grand{
+	height: 100%;
+	width: 100%;
+}   
+
+#grosseImage{
+	height: 800px;
+	width: 100%;
+} 

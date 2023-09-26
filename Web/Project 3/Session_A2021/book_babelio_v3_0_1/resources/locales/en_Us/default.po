@@ -1,0 +1,280 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2021-09-21 03:41+0000\n"
+"PO-Revision-Date: 2021-10-09 10:53-0400\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+
+#: Controller/BooksController.php:68 Controller/BooksController.php:106
+msgid "The book has been saved."
+msgstr ""
+
+#: Controller/BooksController.php:72 Controller/BooksController.php:110
+msgid "The book could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/BooksController.php:131
+msgid "The book has been deleted."
+msgstr ""
+
+#: Controller/BooksController.php:133
+msgid "The book could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TagsController.php:53 Controller/TagsController.php:78
+msgid "The tag has been saved."
+msgstr ""
+
+#: Controller/TagsController.php:57 Controller/TagsController.php:82
+msgid "The tag could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TagsController.php:100
+msgid "The tag has been deleted."
+msgstr ""
+
+#: Controller/TagsController.php:102
+msgid "The tag could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:53 Controller/UsersController.php:76
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:57 Controller/UsersController.php:80
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:96
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:98
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:130
+msgid "Votre identifiant ou votre mot de passe est incorrect."
+msgstr ""
+
+#: Books/add.php:10 Books/edit.php:10 Books/index.php:22 Books/view.php:10
+#: Books/view.php:71 Tags/add.php:10 Tags/edit.php:10 Tags/index.php:18
+#: Tags/view.php:10 Tags/view.php:59 Users/add.php:10 Users/edit.php:10
+#: Users/index.php:20 Users/view.php:10 Users/view.php:61
+msgid "Actions"
+msgstr ""
+
+#: Books/add.php:11 Books/edit.php:16 Books/view.php:13
+msgid "List Books"
+msgstr ""
+
+#: Books/add.php:18
+msgid "Add Book"
+msgstr ""
+
+#: Books/add.php:29 Books/edit.php:34 Tags/add.php:25 Tags/edit.php:30
+#: Users/add.php:25 Users/edit.php:30
+msgid "Submit"
+msgstr ""
+
+#: Books/edit.php:12 Books/index.php:39 Books/view.php:83 Tags/edit.php:12
+#: Tags/index.php:31 Tags/view.php:75 Users/edit.php:12 Users/index.php:35
+#: Users/view.php:77
+msgid "Delete"
+msgstr ""
+
+#: Books/edit.php:14 Books/index.php:39 Books/view.php:12 Books/view.php:83
+#: Tags/edit.php:14 Tags/index.php:31 Tags/view.php:12 Tags/view.php:75
+#: Users/edit.php:14 Users/index.php:35 Users/view.php:12 Users/view.php:77
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Books/edit.php:23 Books/view.php:11
+msgid "Edit Book"
+msgstr ""
+
+#: Books/index.php:8 Books/view.php:14
+msgid "New Book"
+msgstr ""
+
+#: Books/index.php:9
+msgid "Books"
+msgstr ""
+
+#: Books/index.php:37 Books/view.php:81 Tags/index.php:29 Tags/view.php:73
+#: Users/index.php:33 Users/view.php:75
+msgid "View"
+msgstr ""
+
+#: Books/index.php:38 Books/view.php:82 Tags/index.php:30 Tags/view.php:74
+#: Users/index.php:34 Users/view.php:76
+msgid "Edit"
+msgstr ""
+
+#: Books/index.php:48 Tags/index.php:40 Users/index.php:44
+msgid "first"
+msgstr ""
+
+#: Books/index.php:49 Tags/index.php:41 Users/index.php:45
+msgid "previous"
+msgstr ""
+
+#: Books/index.php:51 Tags/index.php:43 Users/index.php:47
+msgid "next"
+msgstr ""
+
+#: Books/index.php:52 Tags/index.php:44 Users/index.php:48
+msgid "last"
+msgstr ""
+
+#: Books/index.php:54 Tags/index.php:46 Users/index.php:50
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+
+#: Books/view.php:12
+msgid "Delete Book"
+msgstr ""
+
+#: Books/view.php:22
+msgid "User"
+msgstr ""
+
+#: Books/view.php:26 Tags/view.php:52 Users/view.php:54
+msgid "Title"
+msgstr ""
+
+#: Books/view.php:30 Tags/view.php:53 Users/view.php:55
+msgid "Slug"
+msgstr ""
+
+#: Books/view.php:34 Books/view.php:66 Tags/view.php:26 Tags/view.php:50
+#: Users/view.php:34 Users/view.php:52
+msgid "Id"
+msgstr ""
+
+#: Books/view.php:38 Tags/view.php:54 Users/view.php:56
+msgid "Nb Pages"
+msgstr ""
+
+#: Books/view.php:42 Tags/view.php:55 Users/view.php:57
+msgid "Rating"
+msgstr ""
+
+#: Books/view.php:46 Books/view.php:69 Tags/view.php:30 Tags/view.php:57
+#: Users/view.php:38 Users/view.php:59
+msgid "Created"
+msgstr ""
+
+#: Books/view.php:50 Books/view.php:70 Tags/view.php:34 Tags/view.php:58
+#: Users/view.php:42 Users/view.php:60
+msgid "Modified"
+msgstr ""
+
+#: Books/view.php:55 Tags/view.php:56 Users/view.php:58
+msgid "Summary"
+msgstr ""
+
+#: Books/view.php:61
+msgid "Related Tags"
+msgstr ""
+
+#: Books/view.php:67 Tags/view.php:22
+msgid "Name"
+msgstr ""
+
+#: Books/view.php:68 Tags/view.php:39
+msgid "Definition"
+msgstr ""
+
+#: Tags/add.php:11 Tags/edit.php:16 Tags/view.php:13
+msgid "List Tags"
+msgstr ""
+
+#: Tags/add.php:18
+msgid "Add Tag"
+msgstr ""
+
+#: Tags/edit.php:23 Tags/view.php:11
+msgid "Edit Tag"
+msgstr ""
+
+#: Tags/index.php:8 Tags/view.php:14
+msgid "New Tag"
+msgstr ""
+
+#: Tags/index.php:9
+msgid "Tags"
+msgstr ""
+
+#: Tags/view.php:12
+msgid "Delete Tag"
+msgstr ""
+
+#: Tags/view.php:45 Users/view.php:47
+msgid "Related Books"
+msgstr ""
+
+#: Tags/view.php:51 Users/view.php:53
+msgid "User Id"
+msgstr ""
+
+#: Users/add.php:11 Users/edit.php:16 Users/view.php:13
+msgid "List Users"
+msgstr ""
+
+#: Users/add.php:18
+msgid "Add User"
+msgstr ""
+
+#: Users/edit.php:23 Users/view.php:11
+msgid "Edit User"
+msgstr ""
+
+#: Users/index.php:8 Users/view.php:14
+msgid "New User"
+msgstr ""
+
+#: Users/index.php:9
+msgid "Users"
+msgstr ""
+
+#: Users/login.php:7
+msgid ""
+"Veuillez s'il vous plaît entrer votre nom d'utilisateur et votre mot de passe"
+msgstr ""
+
+#: Users/login.php:11
+msgid "Login"
+msgstr ""
+
+#: Users/view.php:12
+msgid "Delete User"
+msgstr ""
+
+#: Users/view.php:22
+msgid "Username"
+msgstr ""
+
+#: Users/view.php:26
+msgid "Email"
+msgstr ""
+
+#: Users/view.php:30
+msgid "Password"
+msgstr ""
+
+#: layout/error.php:38
+msgid "Back"
+msgstr ""

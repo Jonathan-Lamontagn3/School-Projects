@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		  <meta charset="utf-8"/>
+		  <title>Accueil</title>
+			
+		  <link rel= "stylesheet" type="text/css" href="styles/base.css"/>
+		  <link rel= "stylesheet" type="text/css" href="styles/modele08.css" id="switch"/> 
+		  <link rel= "stylesheet" type="text/css" href="styles/styleTP6.css"/>
+		  <script src="jquery.js"></script>
+		  <script src="jQueryTP6.js"> </script>
+	</head>
+
+	<body>
+	
+		<section>	
+			
+			<header>
+				<h2>Jonathan Lamontagne, Koffi Latame, Mohammed Errabie <br /><br />Présentation de trois sites web</h2>
+			</header>
+
+			<div id="centre">
+				<div id="centre-bis">	
+					
+					
+					<nav>
+						<ul id="menu">
+							<li><a href="Index.html">Index</a></li>
+							<li><a href="League of legends.html">League of legends</a></li>
+							<li><a href="Onmyoji Arena.html">Onmyoji Arena</a></li>
+							<li><a href="Battlerite.html">Battlerite</a></li>	
+							<li><a href="Conclusion.html">Conclusion</a></li>
+							
+							<li id="gabarit">Gabarit 11</li>
+						</ul>
+					</nav>
+					
+					<div id="secondaire">
+					
+						<h2>Contenu secondaire</h2>
+						
+						<p>Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus,aliquam faucibus, convallis id,congue eu, quam. Mauris ullamcorper felis vitae erat.</p>
+						<p>Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue.</p>
+						<p>Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus,aliquam faucibus, convallis id,congue eu, quam. Mauris ullamcorper felis vitae erat.</p>
+						<p>Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue.</p>
+						
+					</div>					
+
+					<div id="principal">
+						
+						<div>
+							<h2>Les trois site présentés sont:</h2>
+							<ul>
+								<li><a href="https://na.leagueoflegends.com/en-us/">League of legends</a></li>
+								<li><a href="https://www.onmyojiarena.us/">Onmyoji Arena</a></li>
+								<li><a href="https://arena.battlerite.com/">Battlerite</a></li>
+							</ul>
+						</div>
+						
+						<div>
+							<p class="centrer">Voici une capture d'écran de mon premier site "League of legends"</p>
+							<img class="centrer" src="images/League_Accueil.PNG"
+				
+								alt="League of legends"
+								width= "400"
+								height= "200"
+								title= League of legends
+							/>
+						</div>
+			
+						<div>
+							<p class="centrer">Voici une capture d'écran de mon deuxième site "Onmyoji Arena"</p>
+							<img src="images/Onmyoji_Accueil.PNG"
+				
+								alt="Onmyoji Arena"
+								width= "400"
+								height= "200"
+								title= Onmyoji Arena
+								class="centrer"
+							/>
+						</div>
+			
+						<div>
+							<p class="centrer">Voici une capture d'écran de mon troixième site "Battlerite"</p>
+							<img src="images/Battlerite_Accueil.PNG"
+				
+								alt="Battlerite"
+								width= "400"
+								height= "200"
+								title= Battlerite
+								class="centrer"
+							/>
+						</div>
+
+					</div>	
+				</div>
+				</div>
+					<footer id="copyright">
+					© 2008 / Gabarits HTML et CSS proposés par Elephorm et Alsacréations
+					</footer>
+		
+		
+			</section>
+		
+	
+		
+		<script>
+		
+			var element = document.getElementById('switch');
+			var gabarit =  document.getElementById('gabarit');
+			gabarit.onclick = function()
+			      {			       				    
+					if(gabarit.innerHTML == "Gabarit 8")
+					{
+						element.setAttribute('href', "styles/modele08.css")
+						gabarit.innerHTML = "Gabarit 11";
+						
+					}
+					else
+					{
+						element.setAttribute('href', "styles/modele11.css")
+						gabarit.innerHTML = "Gabarit 8";	
+						
+
+					}
+		          };					
+				
+		</script>
+		
+	</body>
+
+</html>
