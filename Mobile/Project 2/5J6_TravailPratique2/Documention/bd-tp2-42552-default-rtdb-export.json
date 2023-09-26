@@ -1,0 +1,25 @@
+{
+  "Livres" : {
+    "TEST01" : {
+      "autheur" : "Jonathan",
+      "code" : "TEST01",
+      "genre" : "Document",
+      "summary" : "Test de fonction",
+      "titre" : "Je test si tout fonctionne"
+    },
+    "TEST02" : {
+      "autheur" : "Testeur",
+      "code" : "TEST02",
+      "genre" : "Aventure",
+      "summary" : "Test by testeur",
+      "titre" : "Book for test"
+    },
+    "TEST03" : {
+      "autheur" : "Simon",
+      "code" : "TEST03",
+      "genre" : "Horreur",
+      "summary" : "Un autre ajout bidon",
+      "titre" : "Un test pour toujours"
+    }
+  }
+}

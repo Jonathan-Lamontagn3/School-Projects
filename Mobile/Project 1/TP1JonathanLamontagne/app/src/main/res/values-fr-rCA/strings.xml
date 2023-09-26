@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Travail Pratique 1 - Jonathan.L</string>
+    <string name="tv_appTitle">ReservoTable</string>
+    <string name="btn_reserver">RÉSERVER UNE TABLE</string>
+    <string name="btn_afficher_reservation">AFFICHER LES RÉSERVATION</string>
+    <string name="tv_reserveTitle">Réservation de place au restaurant</string>
+    <string name="et_nomReservattion">Table réservé au nom de:</string>
+    <string name="et_telephone">Numéro de téléphone:</string>
+    <string name="btn_bookTable">RÉSERVER LA TABLE</string>
+    <string name="tv_debut">DÉBUT</string>
+    <string name="tv_fin">FIN</string>
+    <string name="erreurDate">Votre date de réservation est invalide. Veuillez réserver à une date postérieur à la date actuelle:</string>
+    <string name="erreurNoName">Veuillez entrer le nom auquel vous voulez reserver la table</string>
+    <string name="erreurNoPhone">Veuillez entrer le numéro de téléphone</string>
+    <string name="erreurPhoneFormat">Le numero de téléphone doit être sous le format ###-###-####</string>
+    <string name="erreurnbPlace">Il n’y a pas assez de places pour la réservation où vous tentez de faire une réservation avec 0 place</string>
+    <string name="tv_affichageTitle">Affichage des réservation</string>
+    <string name="tv_selectDate">Sélectionner une date</string>
+    <string name="erreurDataTransfert">Une erreur c\'est produite lors du transfert de données</string>
+    <string name="SAVE">La réservation a été sauvegardée</string>
+</resources>

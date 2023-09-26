@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Practical Work 1 - Jonathan.L</string>
+    <string name="tv_appTitle">ReservoTable</string>
+    <string name="btn_reserver">BOOK A TABLE</string>
+    <string name="btn_afficher_reservation">SHOW RESERVATIONS</string>
+    <string name="tv_reserveTitle">Restaurant seat reservation</string>
+    <string name="et_nomReservattion">Table reserved in the name of:</string>
+    <string name="et_telephone">Phone number:</string>
+    <string name="btn_bookTable">BOOK THE TABLE</string>
+    <string name="tv_debut">START</string>
+    <string name="tv_fin">END</string>
+    <string name="erreurDate">Your reservation date is invalid. Please book on a date later than the current date: </string>
+    <string name="erreurNoName">Please enter the name you want to reserve the table for</string>
+    <string name="erreurNoPhone">Please enter your phone number</string>
+    <string name="erreurPhoneFormat">The phone number must be in the format ###-###-####</string>
+    <string name="erreurnbPlace">There are not enough places for the reservation or you are trying to make a reservation with 0 place</string>
+    <string name="tv_affichageTitle">Display of reservations</string>
+    <string name="tv_selectDate">Select a date</string>
+    <string name="erreurDataTransfert">An error occurred while transferring data</string>
+    <string name="SAVE">The reservation was saved</string>
+</resources>
