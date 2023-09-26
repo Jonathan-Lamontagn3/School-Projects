@@ -1,0 +1,9 @@
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP1\TP1_Jonathan_Lamontagne\bin\Debug\TP1_Jonathan_Lamontagne.exe
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP1\TP1_Jonathan_Lamontagne\bin\Debug\TP1_Jonathan_Lamontagne.pdb
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP1\TP1_Jonathan_Lamontagne\obj\Debug\TP1_Jonathan_Lamontagne.csprojAssemblyReference.cache
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP1\TP1_Jonathan_Lamontagne\obj\Debug\TP1_Jonathan_Lamontagne.Properties.Resources.resources
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP1\TP1_Jonathan_Lamontagne\obj\Debug\TP1_Jonathan_Lamontagne.csproj.GenerateResource.cache
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP1\TP1_Jonathan_Lamontagne\obj\Debug\TP1_Jonathan_Lamontagne.csproj.CoreCompileInputs.cache
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP1\TP1_Jonathan_Lamontagne\obj\Debug\TP1_Jonathan_Lamontagne.exe
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP1\TP1_Jonathan_Lamontagne\obj\Debug\TP1_Jonathan_Lamontagne.pdb
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP1\TP1_Jonathan_Lamontagne\obj\Debug\TP1_Jonathan_Lamontagne.Form_TP1.resources

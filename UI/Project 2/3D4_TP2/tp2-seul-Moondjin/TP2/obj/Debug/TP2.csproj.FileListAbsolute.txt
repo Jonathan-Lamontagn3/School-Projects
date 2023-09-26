@@ -1,0 +1,11 @@
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\bin\Debug\TP2.exe
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\bin\Debug\TP2.pdb
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\obj\Debug\TP2.csprojAssemblyReference.cache
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\obj\Debug\TP2.Principal.resources
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\obj\Debug\TP2.Properties.Resources.resources
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\obj\Debug\TP2.ReservationClient.resources
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\obj\Debug\TP2.csproj.GenerateResource.cache
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\obj\Debug\TP2.csproj.CoreCompileInputs.cache
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\obj\Debug\TP2.exe
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\obj\Debug\TP2.pdb
+C:\Users\drago\Desktop\Travaux scolaire\Interface Utilisateur\3D4_TP2\tp2-seul-Moondjin\TP2\obj\Debug\TP2.MenuAffichage.resources
